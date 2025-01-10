@@ -266,9 +266,9 @@ const handleAddressChange = (e) => {
             <img 
               src={
                 selectedImage
-                  ? `https://rentez-kwwg.onrender.com/${selectedImage.replace(/\\/g, '/')}`
+                  ? `https://rentez-1.onrender.com/${selectedImage.replace(/\\/g, '/')}`
                   : product.image
-                  ? `https://rentez-kwwg.onrender.com/${product.image.replace(/\\/g, '/')}`
+                  ? `https://rentez-1.onrender.com/${product.image.replace(/\\/g, '/')}`
                   : '/placeholder.jpg'
               }
               alt={product.name} 
@@ -442,9 +442,9 @@ const handleAddressChange = (e) => {
         <img
           src={
             selectedImage
-              ? `https://rentez-kwwg.onrender.com/${selectedImage.replace(/\\/g, '/')}`
+              ? `https://rentez-1.onrender.com/${selectedImage.replace(/\\/g, '/')}`
               : product.image
-              ? `https://rentez-kwwg.onrender.com/${product.image.replace(/\\/g, '/')}`
+              ? `https://rentez-1.onrender.com/${product.image.replace(/\\/g, '/')}`
               : '/placeholder.jpg'
           }
           alt={product.name}
@@ -475,7 +475,7 @@ const handleAddressChange = (e) => {
         {product.images.map((image, index) => (
           <img
             key={index}
-            src={`https://rentez-kwwg.onrender.com/${image.replace(/\\/g, '/')}`} // Fix image path
+            src={`https://rentez-1.onrender.com/${image.replace(/\\/g, '/')}`} // Fix image path
             alt={`Product thumbnail ${index}`}
             onClick={() => handleThumbnailClick(image)} // Set the selected image
             className={selectedImage === image ? 'selected-thumbnail' : ''}
@@ -494,9 +494,9 @@ const handleAddressChange = (e) => {
         <img
           src={
             selectedImage
-              ? `https://rentez-kwwg.onrender.com/${selectedImage.replace(/\\/g, '/')}`
+              ? `https://rentez-1.onrender.com/${selectedImage.replace(/\\/g, '/')}`
               : product.image
-              ? `https://rentez-kwwg.onrender.com/${product.image.replace(/\\/g, '/')}`
+              ? `https://rentez-1.onrender.com/${product.image.replace(/\\/g, '/')}`
               : '/placeholder.jpg' 
           }
           alt={product.name || 'Product Image'}
