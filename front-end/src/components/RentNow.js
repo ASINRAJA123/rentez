@@ -475,7 +475,7 @@ const handleAddressChange = (e) => {
         {product.images.map((image, index) => (
           <img
             key={index}
-            src={`https://rentez-2quq.onrender.com/${image.replace(/\\/g, '/')}`} // Fix image path
+            src={`https://rentez-kwwg.onrender.com/${image.replace(/\\/g, '/')}`} // Fix image path
             alt={`Product thumbnail ${index}`}
             onClick={() => handleThumbnailClick(image)} // Set the selected image
             className={selectedImage === image ? 'selected-thumbnail' : ''}
