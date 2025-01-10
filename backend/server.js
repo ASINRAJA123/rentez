@@ -24,7 +24,7 @@ const corsOptions = {
     const allowedOrigins = [
       'http://localhost:3000',  // Local development for React
       'http://localhost:3001',  // Another local React frontend
-      'https://rentez-lyart.vercel.app/', // Vercel frontend
+      'rentez-96wx1n77g-asins-projects-eb891004.vercel.app', // Vercel frontend
       'https://rentez-1.onrender.com', // Backend itself (if needed)
     ];
 
