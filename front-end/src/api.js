@@ -483,7 +483,7 @@ export const fetchRelatedProducts = async (productId) => {
 
 export const fetchProductsByCategory = async (category, excludeProductId) => {
   try {
-    const response = await fetch(`http://localhost:5000/api/products/category/${category}`);
+    const response = await fetch(`https://rentez-kwwg.onrender.com/products/category/${category}`);
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
